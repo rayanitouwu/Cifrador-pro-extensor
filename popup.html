@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cifrador</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Cifrador / Descifrador</h2>
+
+    <!-- Barra de seguridad -->
+    <div class="security">
+      <label>Seguridad: <strong><span id="score">-</span>/10</strong></label>
+      <div class="bar"><div id="bar-fill"></div></div>
+    </div>
+
+    <!-- Entrada -->
+    <textarea id="input" placeholder="Escribe tu contraseña o texto..."></textarea>
+
+    <!-- Método -->
+    <select id="method">
+      <option value="base64">Base64</option>
+      <option value="rot13">ROT13</option>
+      <option value="reverse">Reversa</option>
+      <option value="hex">Hexadecimal</option>
+      <option value="urlencode">URL Encode</option>
+    </select>
+
+    <!-- Botones -->
+    <div class="buttons">
+      <button id="encryptBtn">🔐 Cifrar</button>
+      <button id="decryptBtn">🔓 Descifrar</button>
+      <button id="copyBtn">📋 Copiar</button>
+    </div>
+
+    <!-- Salida -->
+    <textarea id="output" placeholder="Resultado..." readonly></textarea>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
