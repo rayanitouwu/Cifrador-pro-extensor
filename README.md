@@ -1,2 +1,3 @@
-# Cifrador-pro-extensor
-Es una extensión para tu navegador, para que puedas tanto cifrar y descifrar para que en vez que tu contraseña sea qwertyuiop pues sea cXdlcnR5dWlvcA== por ejemplo.
+Solo está en español
+Tiene tanto cifrado como descifrado y también un botón de copiar por si eres vago, los tipos que hay son Base64, ROT13, Reversa y Hexadecimal.
+URL Encode no funciona por ahora, lo más probable es que lo quite.
